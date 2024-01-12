@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+    <meta charset="utf-8" content="width=device-width, initial-scale=1.0" name="viewport" />
+    <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}" />
+</head>
+<body>
+    <h1>Language Translation using Python Backend</h1>
+    <p>
+        Welcome! This is the homepage of an online language proccessing and translation app
+        that uses a python code in the backend for the translation of languages. The python
+        module used for this is the "googletrans" module. To install this module, execute the
+        following command in the command prompt:
+    </p>
+    <div>
+        > pip install googletrans
+    </div>
+    <p>The Python Backend code is also shown below: (for demonstration purposes, the
+    source language is taken to be English (en) and the target language is Hindi (hi)).
+    </p>
+    <div>
+        from translate import ChangeLang<br />
+
+        def ChangeLang(og,i_lang,t_lang):<br />
+        &emsp;&emsp;t=Translator()<br />
+        &emsp;&emsp;translation=t(og,src=i_lang,dest=t_lang)<br />
+        &emsp;&emsp;return translation<br /><br />
+        a = input("Enter the English Text: ")
+        print("The Hindi Translation is: ",ChangeLang(a,"en","hi"))
+    </div>
+    <p>To visit the translation webpage, <a href="translate.html" target="_blank">Click Here</a>
+    </p>
+</body>
+</html>
