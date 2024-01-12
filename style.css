@@ -1,0 +1,66 @@
+.custom-select{
+    position:relative;
+    font-family:Bahnschrift;
+}
+.select-selected{
+    background-color:dodgerblue;
+}
+
+div {
+    background-color: black;
+    font-family: 'Courier New';
+    font-size: 18px;
+    color: white;
+    display:inline-block;
+    width:fit-content;
+}
+
+a:link {
+    color: #78f5d4;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #e80c0c;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ade80c;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+label {
+    color: #34ed5f;
+    font-family:Bahnschrift;
+}
+body {
+    background-image: url("bg.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    image-resolution:from-image;
+}
+p {
+    font-family: Bahnschrift;
+    font-size: 17px;
+    text-align: center;
+    color: #13ff03;
+}
+
+h1, h3 {
+    text-align: center;
+    color: #13ff03;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande';
+}
+
+input {
+    font-family: Bahnschrift;
+    font-size: 16px;
+    border: 1px solid #d47e06;
+    border-radius: 4px;
+    background-color: black;
+    color: #b3ba30;
+}
