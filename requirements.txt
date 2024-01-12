@@ -1,0 +1,2 @@
+flask=3.0.0
+googletrans=3.0.0
